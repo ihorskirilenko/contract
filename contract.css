@@ -1,0 +1,55 @@
+body {
+
+    font: 13px "Open Sans";
+    color: darkslategray;
+    border-collapse: separate;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+td {
+
+    border-collapse: separate;
+    width: 200px;
+    border: 1px solid darkslategray;
+
+}
+
+button {
+
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    background: #879eff;
+    box-shadow: none;
+    border: none;
+
+}
+
+button:focus, input:focus {
+
+    outline: none;
+
+}
+
+h3 {
+
+    text-align: center;
+
+}
+
+form {
+
+    width: 200px;
+    margin-left: 100px;
+
+}

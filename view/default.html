@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="contract.css">
+        <title>Тестовое задание</title>
+    </head>
+    <body>
+        <div id="container">
+            <h3>You can find your contract here!</h3>
+            <form id="form" method="post" action="index.php">
+                <input id="request" type="text" name="request" placeholder="Enter contract's id..."><br>
+                <input type="checkbox" value="1" name="status[1]">Work<br>
+                <input type="checkbox" value="2" name="status[2]">Connecting</label><br>
+                <input type="checkbox" value="3" name="status[3]">Disconnected<br>
+                <button type="submit">Send</button>
+            </form>
+            <div id="content"></div>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
